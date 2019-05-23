@@ -1,0 +1,14 @@
+Cheatsheet
+
+#get text from text area
+self.driver.find_element_by_xpath(strTextAreaLoc)).getAttribute("value"); 
+
+#select an item from selectbox
+b.find_element_by_xpath("//select[@name='element_name']/option[text()='option_text']").click()
+
+
+#another way to select a value from selectbox
+from selenium.webdriver.support.select import Select
+
+select_fr = Select(self.driver.find_element_by_xpath(xpath_loc))
+select_fr.select_by_index(0)
