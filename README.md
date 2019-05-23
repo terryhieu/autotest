@@ -4,4 +4,4 @@ Required following installation:
  Make sure: Add chromedriver path to path environment
 
 3. Open command line then execute:
-	python WizelineTest.py
+	python wizelinetest.py
